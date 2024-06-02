@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join our gym to achieve your fitness goals. Explore our classes, read our blog, and hear from our satisfied members.">
+    <meta name="keywords" content="gym, fitness, yoga, pilates, HIIT, strength training">
+    <title>Our Gym</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1 id="best">welcome to our Gym</h1>
+        <p id="best">Your fitness journey starts here. Join us today!</p>
+        <img src="structur.webp" alt="" id="akash">
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our gym offers state-of-the-art equipment, professional trainers, and a variety of classes to suit all fitness levels.</p>
+        <img src="cardio.jpeg" alt="">
+        <img src="gym.jpeg" alt="">
+    </section><hr>
+
+    <section id="classes">
+        <h2>Classes</h2>
+        <ul>
+            <li>Yoga</li>
+            <li>Pilates</li>
+            <li>cardio</li>
+            <li>Strength Training</li>
+            <li>zoomba class</li>
+        </ul>
+        <img src="k.jpeg" alt="" id="a">
+    </section><hr>
+
+    <section id="schedule">
+        <h2>Class Schedule</h2><hr>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <tr>
+                <td>6:00 AM</td>
+                <td>Yoga</td>
+                <td>Pilates</td>
+                <td>cardio</td>
+                <td>Strength Training</td>
+                <td>zoomba class</td>
+            </tr>
+            <!-- More rows as needed -->
+        </table>
+        <br>
+        <img src="trainer.jpeg" alt="" id="b">
+    </section>
+        <br>
+         <hr>
+    <section id="membership">
+        <h2>Membership</h2><hr>
+        <form action="submit_membership.php" method="post">
+            <label for="full_name">Full Name:</label>
+            <input type="text" id="full_name" name="full_name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="membership_type">Membership Type:</label>
+            <select id="membership_type" name="membership_type">
+                <option value="monthly">Monthly</option>
+                <option value="quarterly">Quarterly</option>
+                <option value="yearly">Yearly</option>
+            </select>
+
+            <button type="submit">Join Now</button>
+        </form>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>Fitness Tips for Beginners</h3>
+            <p>Starting your fitness journey can be daunting, but with these tips, you'll be on the right track...</p>
+            <a href="blog_post.html">Read more</a>
+        </article>
+        <!-- Add more articles as needed -->
+        <img src="g.jpg" alt="" id="star">
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <blockquote>
+            <p>"Joining this gym was the best decision I've ever made! The trainers are amazing and the classes are top-notch."</p>
+            <footer>- John Doe</footer>
+        </blockquote>
+        <blockquote>
+            <p>"I've never felt healthier and stronger. Highly recommend this gym to everyone!"</p>
+            <footer>- Jane Smith</footer>
+        </blockquote>
+        <!-- Add more testimonials as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Our Gym. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
